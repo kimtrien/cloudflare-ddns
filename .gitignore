@@ -1,0 +1,32 @@
+# Node / JS / IDE etc (optional)
+node_modules/
+.vscode/
+.idea/
+
+# Env file chứa token nhạy cảm
+cloudflare.env
+
+# Logs
+*.log
+/tmp/*.log
+
+# Docker artifacts
+*.tar
+*.tmp
+*.swp
+*.pid
+*.sock
+*.bak
+
+# Docker system files
+docker-compose.override.yml
+.dockerignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup / swap files
+*~
+*.swp
+*.swo

@@ -1,6 +1,14 @@
 # Cloudflare DDNS Updater
 
-Script tự động cập nhật IP public lên Cloudflare A record.
+Cập nhật tự động IP public hoặc LAN lên Cloudflare A record.
+
+## Features
+
+- Chỉ update khi IP thay đổi
+- Retry khi API fail
+- Logging ra stdout + file
+- Chạy container, tự restart
+- Hỗ trợ LAN/public IP
 
 ## Cài đặt
 
