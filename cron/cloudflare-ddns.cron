@@ -1,0 +1,2 @@
+*/5 * * * * root /usr/local/bin/update-cloudflare.sh >> /var/log/cloudflare-ddns.log 2>&1
+

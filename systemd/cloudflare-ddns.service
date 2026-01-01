@@ -1,0 +1,13 @@
+[Unit]
+Description=Cloudflare Dynamic DNS Updater
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/update-cloudflare.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
